@@ -1,0 +1,9 @@
+// 讓他置底，要在主頁面設定 min-hight=100vh
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: rgb(164, 177, 173);
+  padding: 1.5rem 0rem;
+}

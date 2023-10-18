@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  button {
+    font-size: 1.8rem;
+    padding: 0.3rem 1rem;
+    border: 1px solid rgb(75, 112, 100);
+    border-radius: 3px;
+    background-color: rgb(75, 112, 100);
+    color: white;
+  }
+}
+
+// 引入其他 scss 最後 style.scss 執行 watch sass 就好
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
